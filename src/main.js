@@ -5,6 +5,7 @@ let mic;
 let app;
 let fft;
 
+
 const p = new p5((p) => {
   p.setup = () => {
     mic = new p5.AudioIn();
