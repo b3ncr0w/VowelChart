@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formants</title>
+
+  <script language="javascript" type="text/javascript" src="./lib/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="./lib/p5.sound.js"></script>
+  <script type="module" language="javascript" type="text/javascript" src="./src/main.js" defer></script>
+
+  <script src="./src/convexHull.js"></script>
+  <script src="./src/example.js" defer></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #111;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <fig1></fig1>
+  <chart></chart>
+<!-- 
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-0.5 -0.5 1 1" style="display:block; width:70%; height:20em; margin:0em auto; border:0.07em solid #808080">
+    <path d="M-0.13346257786623,0.019310510679550735L-0.07745061559838992,0.05727205026335515L0.00794639571889507,0.11265029418806707L0.12556144829942836,-0.01036064642896003L0.0448945204092352,-0.06023898078552418L0.005959672279302726,-0.07678715663996404L-0.07452413988241738,-0.07581803702137364Z" fill="#E8E8E8" stroke-width="0.006" stroke="#808080"/>
+    <g fill="#909090"><circle cx="-0.05235772785332732" cy="-0.030369689990492364" r="0.012"/><circle cx="-0.025191536100208002" cy="0.02041332752941353" r="0.012"/><circle cx="-0.023199953498706925" cy="0.005618992543707738" r="0.012"/><circle cx="0.04009653574558692" cy="0.008910165824264382" r="0.012"/><circle cx="0.049054498729686986" cy="0.06810903568727907" r="0.012"/><circle cx="-0.0044294446175247295" cy="-0.0730458865453447" r="0.012"/><circle cx="0.015014875768434693" cy="0.08751393171013684" r="0.012"/><circle cx="-0.08620890770026188" cy="-0.006898974863547449" r="0.012"/></g>
+    <g fill="#FF0000"><circle cx="0.00794639571889507" cy="0.11265029418806707" r="0.012"/><circle cx="-0.13346257786623" cy="0.019310510679550735" r="0.012"/><circle cx="0.0448945204092352" cy="-0.06023898078552418" r="0.012"/><circle cx="0.005959672279302726" cy="-0.07678715663996404" r="0.012"/><circle cx="-0.07745061559838992" cy="0.05727205026335515" r="0.012"/><circle cx="-0.07452413988241738" cy="-0.07581803702137364" r="0.012"/><circle cx="0.12556144829942836" cy="-0.01036064642896003" r="0.012"/></g>
+  </svg>
+  <p xmlns="http://www.w3.org/1999/xhtml" style="max-width:100%; text-align:center">
+    <input type="radio" name="demo-mode" checked="checked" id="random-static" onchange="handleRadioButtons();" data-com.bitwarden.browser.user-edited="yes" /><label for="random-static">Random static points</label>
+    <input type="radio" name="demo-mode" id="random-moving" onchange="handleRadioButtons();" data-com.bitwarden.browser.user-edited="yes" /><label for="random-moving">Random moving points</label>
+    <input type="radio" name="demo-mode" id="manual-position" onchange="handleRadioButtons();" data-com.bitwarden.browser.user-edited="yes" /><label for="manual-position">Manual positioning</label>
+  </p> -->
+</body>
+</html>
